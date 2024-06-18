@@ -7,9 +7,8 @@ TokenTrove is a comprehensive web application for tracking and comparing cryptoc
 1. [Features](#features)
 2. [Demo](#demo)
 3. [Installation](#installation)
-4. [How to Contribute](#How to Contribute)
-5. [License](#license)
-6. [Contact](#contact)
+4. [License](#license)
+5. [Contact](#contact)
 
 ## Features
 
