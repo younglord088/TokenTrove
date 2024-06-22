@@ -1,0 +1,43 @@
+.flex-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    padding: 0.5rem 3rem;
+}
+
+.track-crypto-heading,
+.real-time-heading{
+    font-size: 6.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.track-crypto-heading{
+    color: var(--white);
+    -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--white);
+
+}
+.track-crypto-heading:hover{
+
+    color: var(--black);
+    -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--white);
+    transition: all 0.3s;
+}
+.real-time-heading{
+    color: var(--blue);
+}
+.track-crypto-para{
+    font-size: 1.5rem;
+    color: var(--gray);
+    margin: 0;
+    margin-top: 1rem;
+}
+.button-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
