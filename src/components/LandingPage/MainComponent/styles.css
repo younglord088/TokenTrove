@@ -41,3 +41,62 @@
     gap: 1.5rem;
     margin-top: 2rem;
 }
+.phone-container{
+    width: 50%;
+    position: relative;
+    padding: 1 rem;
+}
+.iphone-img{
+    width: 250px;
+    position: absolute;
+    min-width: 300px;
+    z-index: 100;
+    right: 0;
+}
+.gradient-img{
+    position: absolute;
+    width: 40%;
+    top:8 rem;
+    right: 0;
+    min-width: 250px;
+}
+@media only screen and (max-width: 1250px) {
+    .track-crypto-heading,
+    .real-time-heading{
+        font-size: 5rem;
+        font-weight: 600;
+        margin: 0;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .iphone-img{
+        width: 250px;
+        position: absolute;
+        min-width: 250px;
+
+      
+    }
+    .gradient-img{
+        position: absolute;
+       
+        top:6 rem;
+   
+        min-width: 200px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+   .flex-info{
+       flex-direction: column;
+       align-items: center;
+   }
+    .gradient,
+  .iphone {
+    left: 0px;
+  }
+
+  .iphone {
+    left: -30px;
+  }
+
+   
+  }
