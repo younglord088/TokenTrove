@@ -1,114 +1,113 @@
 .flex-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0.5rem 3rem;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.5rem 3rem;
+}
+
+.track-crypto-heading,
+.real-time-heading {
+  font-size: 6.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.track-crypto-heading {
+  color: var(--white);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--white);
+}
+
+.track-crypto-heading:hover {
+  color: var(--black);
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: var(--white);
+  transition: all 0.3s;
+}
+
+.real-time-heading {
+  color: var(--blue);
+}
+
+.track-crypto-para {
+  font-size: 1.5rem;
+  color: var(--gray);
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.button-flex {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.phone-container {
+  width: 50%;
+  position: relative;
+  padding: 1rem;
+}
+
+.iphone-img {
+  width: 250px;
+  position: absolute;
+  min-width: 300px;
+  z-index: 100;
+  right: 0;
+}
+
+.gradient-img {
+  position: absolute;
+  width: 40%;
+  top: 8rem;
+  right: 0;
+  min-width: 250px;
+}
+
+.heading-line {
+  display: flex;
+  align-items: baseline;
+}
+
+.heading-line h1 {
+  margin-right: 45px; 
+}
+
+@media only screen and (max-width: 1250px) {
   .track-crypto-heading,
   .real-time-heading {
-    font-size: 6.5rem;
+    font-size: 5rem;
     font-weight: 600;
     margin: 0;
   }
-  
-  .track-crypto-heading {
-    color: var(--white);
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: var(--white);
-  }
-  
-  .track-crypto-heading:hover {
-    color: var(--black);
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: var(--white);
-    transition: all 0.3s;
-  }
-  
-  .real-time-heading {
-    color: var(--blue);
-  }
-  
-  .track-crypto-para {
-    font-size: 1.5rem;
-    color: var(--gray);
-    margin: 0;
-    margin-top: 1rem;
-  }
-  
-  .button-flex {
-    display: flex;
-    justify-content: flex-start;
-    gap: 1.5rem;
-    margin-top: 2rem;
-  }
-  
-  .phone-container {
-    width: 50%;
-    position: relative;
-    padding: 1rem;
-  }
-  
+}
+
+@media only screen and (max-width: 1000px) {
   .iphone-img {
     width: 250px;
     position: absolute;
-    min-width: 300px;
-    z-index: 100;
-    right: 0;
-  }
-  
-  .gradient-img {
-    position: absolute;
-    width: 40%;
-    top: 8rem;
-    right: 0;
     min-width: 250px;
   }
-  
-  .heading-line {
-    display: flex;
-    align-items: baseline;
+
+  .gradient-img {
+    position: absolute;
+    top: 6rem;
+    min-width: 200px;
   }
-  
-  .heading-line h1 {
-    margin-right: 45px; /* Adjust spacing as needed */
+}
+
+@media only screen and (max-width: 800px) {
+  .flex-info {
+    flex-direction: column;
+    align-items: center;
   }
-  
-  @media only screen and (max-width: 1250px) {
-    .track-crypto-heading,
-    .real-time-heading {
-      font-size: 5rem;
-      font-weight: 600;
-      margin: 0;
-    }
+
+  .iphone-img {
+    left: 0px;
   }
-  
-  @media only screen and (max-width: 1000px) {
-    .iphone-img {
-      width: 250px;
-      position: absolute;
-      min-width: 250px;
-    }
-  
-    .gradient-img {
-      position: absolute;
-      top: 6rem;
-      min-width: 200px;
-    }
+
+  .gradient-img {
+    left: 0px;
   }
-  
-  @media only screen and (max-width: 800px) {
-    .flex-info {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .iphone-img {
-      left: 0px;
-    }
-  
-    .gradient-img {
-      left: 0px;
-    }
-  }
-  
+}

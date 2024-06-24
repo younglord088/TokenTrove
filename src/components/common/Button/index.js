@@ -4,7 +4,7 @@ function Button({text, onClick, outlined}) {
   return (
     <div className={outlined?"outlined-button":'btn'} onClick={()=>onClick()}>
             {text}
-        </div>
+        </div> 
   )
 }
 

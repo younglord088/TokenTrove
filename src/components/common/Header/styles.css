@@ -57,6 +57,11 @@ gap: 1rem;
     }
   }
 
-  .mobile-drawer{
+.mobile-drawer{
     display: none;
   }
+
+.drawer-button {
+    color: var(--gray); 
+    z-index: 101; 
+}
