@@ -57,6 +57,7 @@ gap: 1rem;
     }
   }
 
+<<<<<<< HEAD
 .mobile-drawer{
     display: none;
   }
@@ -65,3 +66,8 @@ gap: 1rem;
     color: var(--gray); 
     z-index: 101; 
 }
+=======
+  .mobile-drawer{
+    display: none;
+  }
+>>>>>>> 6b7cbd8a9d9f1151412d33d05868b8b2fe3fd82d
