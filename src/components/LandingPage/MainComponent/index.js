@@ -2,6 +2,8 @@ import React from 'react'
 import "./styles.css"
 import iphone from '../../../assets/iphone.png'
 import gradient from '../../../assets/gradient.png'
+import { Button } from '@mui/material'
+
 function MainComponent() {
   return (
     <div className='flex-info'>

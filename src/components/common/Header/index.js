@@ -1,7 +1,7 @@
 import React from 'react'
 import "./styles.css"
 import Button from "../Button";
-import TemporaryDrawer from "src/components/Common/Header/drawer.js";
+import TemporaryDrawer from "../../Common/Header/drawer";
 import "./styles.css";
 
 
