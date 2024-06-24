@@ -8,7 +8,11 @@ function MainComponent() {
   return (
     <div className='flex-info'>
       <div className='left-component'>
-        <h1 className='track-crypto-heading'>Track Crypto in</h1>
+        <h1 className='track-crypto-heading'>Track Crypto </h1>
+        <div className='heading-line'>
+      <h1 className='track-crypto-heading'>Prices </h1>
+      <h1 className='real-time-heading'>    In</h1>
+    </div>
         <h1 className='real-time-heading'>Real Time.</h1>
         <p className='track-crypto-para'>Get the latest prices of cryptocurrencies and track your favourite coins.</p>
         <div className='button-flex'>
