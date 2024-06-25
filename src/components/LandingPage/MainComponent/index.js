@@ -58,12 +58,12 @@ function MainComponent() {
       </div>
       <div className='phone-container'>
         <motion.img src={iphone} className='iphone-img' alt="iPhone"
-        initial={{ y: -10 }}
-        animate={{ y: 10 }}
+        initial={{ y: -20 }}
+        animate={{ y: 20 }}
         transition={{
           type: "smooth",
           repeatType: "mirror",
-          duration: 2,
+          duration: 1,
           repeat: Infinity,
         }}
       />
