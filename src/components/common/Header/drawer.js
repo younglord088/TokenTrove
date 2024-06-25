@@ -10,7 +10,6 @@ export default function TemporaryDrawer() {
    
     
 
-<<<<<<< HEAD
     return (
       <div>
         <IconButton onClick={() => setOpen(true)} className="drawer-button">
@@ -36,28 +35,3 @@ export default function TemporaryDrawer() {
       </div>
     );
   }
-=======
-  return (
-    <div>
-     
-        <IconButton onClick={()=>setOpen(true)}> 
-        <MenuRoundedIcon className='link' /> 
-            
-        </IconButton>
-        <Drawer
-            anchor={"right"}
-            open={open}
-            onClose={()=> setOpen(false)}
-        >
-        <div className='links'>
-        <a href='#'><p className='link '>Home</p></a>
-        <a href='#'><p className='link '>Compare</p></a>
-        <a href='#'><p className='link '>Watchlist</p></a>
-        <a href='#'><p className='link '>Dashboard</p></a>
-        </div>
-        </Drawer>
-       
-    </div>
-  );
-}
->>>>>>> 6b7cbd8a9d9f1151412d33d05868b8b2fe3fd82d
