@@ -63,7 +63,7 @@ function MainComponent() {
         transition={{
           type: "smooth",
           repeatType: "mirror",
-          duration: 1,
+          duration: 2,
           repeat: Infinity,
         }}
       />
